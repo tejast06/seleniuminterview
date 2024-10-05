@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-05T15:10:03 IST" name="Default suite" finished-at="2024-10-05T15:10:17 IST" duration-ms="13727">
+  <suite started-at="2024-10-05T15:57:20 IST" name="Default suite" finished-at="2024-10-05T15:57:27 IST" duration-ms="7561">
     <groups>
     </groups>
-    <test started-at="2024-10-05T15:10:03 IST" name="Default test" finished-at="2024-10-05T15:10:17 IST" duration-ms="13727">
-      <class name="selenium.AutoCompleteDropDown">
-        <test-method signature="test()[pri:0, instance:selenium.AutoCompleteDropDown@1fa268de]" started-at="2024-10-05T15:10:03 IST" name="test" finished-at="2024-10-05T15:10:17 IST" duration-ms="13669" status="PASS">
+    <test started-at="2024-10-05T15:57:20 IST" name="Default test" finished-at="2024-10-05T15:57:27 IST" duration-ms="7561">
+      <class name="selenium.HandleChecboxes">
+        <test-method signature="test()[pri:0, instance:selenium.HandleChecboxes@1fa268de]" started-at="2024-10-05T15:57:20 IST" name="test" finished-at="2024-10-05T15:57:27 IST" duration-ms="7528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- selenium.AutoCompleteDropDown -->
+      </class> <!-- selenium.HandleChecboxes -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

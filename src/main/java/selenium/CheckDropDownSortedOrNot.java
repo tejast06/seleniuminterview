@@ -22,7 +22,7 @@ public WebDriver driver;
 	public void test() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		driver.get("https://twoplugs.com/newsearchserviceneed");
+		driver.get("https://twoplugs.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		driver.findElement(By.xpath("//a[text()='Live Posting']")).click();
