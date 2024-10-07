@@ -28,16 +28,30 @@ public WebDriver driver;
 	    List<WebElement> checkboxes=	driver.findElements(By.xpath("//div[@class='form-check form-check-inline']/input[@class='form-check-input' and @type='checkbox']"));
 		
 	    int size=  checkboxes.size();
-//	    for(int i=0; i<=size; i++) {
+////	    for(int i=0; i<=size; i++) {
+////	    	checkboxes.get(i).click();
+////	    }
+//	    
+//	    for(WebElement ch:checkboxes) {
+//	     String chkboxes = 	ch.getAttribute("id");
+//	     if(chkboxes.equals("monday") || chkboxes.equals("wednesday")) {
+//	    	 ch.click();
+//	     }
+//	    }
+	    
+	    //select last 2 checkboxes.
+	    
+//	    for(int i=size-2; i<size; i++) {
 //	    	checkboxes.get(i).click();
 //	    }
 	    
-	    for(WebElement ch:checkboxes) {
-	     String chkboxes = 	ch.getAttribute("id");
-	     if(chkboxes.equals("monday") || chkboxes.equals("wednesday")) {
-	    	 ch.click();
-	     }
+	    //select first 2 checkboxes.
+	    for(int i=0; i<size; i++) {
+	    	if(i<2) {
+	    		checkboxes.get(i).click();
+	    	}
 	    }
+	    
 		
 		
 		
