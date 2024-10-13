@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-06T14:46:25 IST" name="Default suite" finished-at="2024-10-06T14:47:08 IST" duration-ms="43557">
+  <suite started-at="2024-10-13T14:18:23 IST" name="Default suite" finished-at="2024-10-13T14:18:31 IST" duration-ms="7984">
     <groups>
     </groups>
-    <test started-at="2024-10-06T14:46:25 IST" name="Default test" finished-at="2024-10-06T14:47:08 IST" duration-ms="43557">
-      <class name="selenium.HandleMultipleWindows">
-        <test-method signature="test()[pri:0, instance:selenium.HandleMultipleWindows@1fa268de]" started-at="2024-10-06T14:46:25 IST" name="test" finished-at="2024-10-06T14:47:08 IST" duration-ms="43527" status="PASS">
+    <test started-at="2024-10-13T14:18:23 IST" name="Default test" finished-at="2024-10-13T14:18:31 IST" duration-ms="7984">
+      <class name="selenium.HandleJSScriptPopups">
+        <test-method signature="test()[pri:0, instance:selenium.HandleJSScriptPopups@1fa268de]" started-at="2024-10-13T14:18:23 IST" name="test" finished-at="2024-10-13T14:18:31 IST" duration-ms="7947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- selenium.HandleMultipleWindows -->
+      </class> <!-- selenium.HandleJSScriptPopups -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
