@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-13T14:18:23 IST" name="Default suite" finished-at="2024-10-13T14:18:31 IST" duration-ms="7984">
+  <suite started-at="2024-11-23T13:39:19 IST" name="Default suite" finished-at="2024-11-23T13:40:00 IST" duration-ms="41095">
     <groups>
     </groups>
-    <test started-at="2024-10-13T14:18:23 IST" name="Default test" finished-at="2024-10-13T14:18:31 IST" duration-ms="7984">
-      <class name="selenium.HandleJSScriptPopups">
-        <test-method signature="test()[pri:0, instance:selenium.HandleJSScriptPopups@1fa268de]" started-at="2024-10-13T14:18:23 IST" name="test" finished-at="2024-10-13T14:18:31 IST" duration-ms="7947" status="PASS">
+    <test started-at="2024-11-23T13:39:19 IST" name="Default test" finished-at="2024-11-23T13:40:00 IST" duration-ms="41095">
+      <class name="selenium.TableWithPagination">
+        <test-method signature="test()[pri:0, instance:selenium.TableWithPagination@6b927fb]" started-at="2024-11-23T13:39:19 IST" name="test" finished-at="2024-11-23T13:40:00 IST" duration-ms="41029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- selenium.HandleJSScriptPopups -->
+      </class> <!-- selenium.TableWithPagination -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
