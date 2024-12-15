@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-01T12:42:16 IST" name="Default suite" finished-at="2024-12-01T12:42:47 IST" duration-ms="31301">
+  <suite started-at="2024-12-08T14:58:46 IST" name="Default suite" finished-at="2024-12-08T14:58:49 IST" duration-ms="3157">
     <groups>
     </groups>
-    <test started-at="2024-12-01T12:42:16 IST" name="Default test" finished-at="2024-12-01T12:42:47 IST" duration-ms="31301">
-      <class name="selenium.OpenURLInTwoBrowser">
-        <test-method signature="test()[pri:0, instance:selenium.OpenURLInTwoBrowser@1fa268de]" started-at="2024-12-01T12:42:16 IST" name="test" finished-at="2024-12-01T12:42:47 IST" duration-ms="31271" status="PASS">
+    <test started-at="2024-12-08T14:58:46 IST" name="Default test" finished-at="2024-12-08T14:58:49 IST" duration-ms="3157">
+      <class name="selenium.DownloadFile">
+        <test-method signature="test()[pri:0, instance:selenium.DownloadFile@1fa268de]" started-at="2024-12-08T14:58:46 IST" name="test" finished-at="2024-12-08T14:58:49 IST" duration-ms="3096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- selenium.OpenURLInTwoBrowser -->
+      </class> <!-- selenium.DownloadFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

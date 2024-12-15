@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.ToolTip">
+      <class name="selenium.DownloadFile">
         <methods>
           <include name="test"/>
         </methods>
-      </class> <!-- selenium.ToolTip -->
+      </class> <!-- selenium.DownloadFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
