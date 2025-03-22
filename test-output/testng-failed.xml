@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.DependencyDEmo">
+      <class name="selenium.AutoCompleteDropDown">
         <methods>
-          <include name="openApp"/>
-          <include name="logout"/>
-          <include name="login"/>
-          <include name="search"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- testng.DependencyDEmo -->
+      </class> <!-- selenium.AutoCompleteDropDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

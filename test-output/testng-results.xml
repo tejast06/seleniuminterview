@@ -1,50 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="8" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-16T15:55:44 IST" name="Functional" finished-at="2025-03-16T15:55:44 IST" duration-ms="201">
+  <suite started-at="2025-03-22T14:29:12 IST" name="Default suite" finished-at="2025-03-22T14:29:52 IST" duration-ms="39373">
     <groups>
-      <group name="functional">
-        <method signature="GroupingDemo2.payInINR()[pri:1, instance:testng.GroupingDemo2@3b69e7d1]" name="payInINR" class="testng.GroupingDemo2"/>
-        <method signature="GroupingDemo2.payInDollar()[pri:2, instance:testng.GroupingDemo2@3b69e7d1]" name="payInDollar" class="testng.GroupingDemo2"/>
-      </group> <!-- functional -->
-      <group name="regression">
-        <method signature="GroupingDemo2.payInINR()[pri:1, instance:testng.GroupingDemo2@3b69e7d1]" name="payInINR" class="testng.GroupingDemo2"/>
-        <method signature="GroupingDemo2.payInDollar()[pri:2, instance:testng.GroupingDemo2@3b69e7d1]" name="payInDollar" class="testng.GroupingDemo2"/>
-      </group> <!-- regression -->
-      <group name="sanity">
-        <method signature="GroupingDemo.loginByEmail()[pri:1, instance:testng.GroupingDemo@2f4948e4]" name="loginByEmail" class="testng.GroupingDemo"/>
-        <method signature="GroupingDemo2.payInINR()[pri:1, instance:testng.GroupingDemo2@3b69e7d1]" name="payInINR" class="testng.GroupingDemo2"/>
-        <method signature="GroupingDemo.loginByFB()[pri:2, instance:testng.GroupingDemo@2f4948e4]" name="loginByFB" class="testng.GroupingDemo"/>
-        <method signature="GroupingDemo2.payInDollar()[pri:2, instance:testng.GroupingDemo2@3b69e7d1]" name="payInDollar" class="testng.GroupingDemo2"/>
-        <method signature="GroupingDemo.loginByGoogle()[pri:3, instance:testng.GroupingDemo@2f4948e4]" name="loginByGoogle" class="testng.GroupingDemo"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-03-16T15:55:44 IST" name="Functional" finished-at="2025-03-16T15:55:44 IST" duration-ms="201">
-      <class name="testng.GroupingDemo2">
-        <test-method signature="payInINR()[pri:1, instance:testng.GroupingDemo2@3b69e7d1]" started-at="2025-03-16T15:55:44 IST" name="payInINR" finished-at="2025-03-16T15:55:44 IST" duration-ms="26" status="PASS">
+    <test started-at="2025-03-22T14:29:12 IST" name="Default test" finished-at="2025-03-22T14:29:52 IST" duration-ms="39373">
+      <class name="selenium.AutoCompleteDropDown">
+        <test-method signature="test()[pri:0, instance:selenium.AutoCompleteDropDown@6150c3ec]" started-at="2025-03-22T14:29:12 IST" name="test" finished-at="2025-03-22T14:29:52 IST" duration-ms="39201" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [23d6bdd9380b6637c88eca31f470cfe8, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\Tejas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63625/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 23d6bdd9380b6637c88eca31f470cfe8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.118)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [23d6bdd9380b6637c88eca31f470cfe8, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\Tejas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63625/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 23d6bdd9380b6637c88eca31f470cfe8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+at selenium.AutoCompleteDropDown.test(AutoCompleteDropDown.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- payInINR -->
-        <test-method signature="payInDollar()[pri:2, instance:testng.GroupingDemo2@3b69e7d1]" started-at="2025-03-16T15:55:44 IST" name="payInDollar" finished-at="2025-03-16T15:55:44 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- payInDollar -->
-      </class> <!-- testng.GroupingDemo2 -->
-      <class name="testng.GroupingDemo">
-        <test-method signature="loginByEmail()[pri:1, instance:testng.GroupingDemo@2f4948e4]" started-at="2025-03-16T15:55:44 IST" name="loginByEmail" finished-at="2025-03-16T15:55:44 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginByEmail -->
-        <test-method signature="loginByFB()[pri:2, instance:testng.GroupingDemo@2f4948e4]" started-at="2025-03-16T15:55:44 IST" name="loginByFB" finished-at="2025-03-16T15:55:44 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginByFB -->
-        <test-method signature="loginByGoogle()[pri:3, instance:testng.GroupingDemo@2f4948e4]" started-at="2025-03-16T15:55:44 IST" name="loginByGoogle" finished-at="2025-03-16T15:55:44 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginByGoogle -->
-      </class> <!-- testng.GroupingDemo -->
-    </test> <!-- Functional -->
-  </suite> <!-- Functional -->
+        </test-method> <!-- test -->
+      </class> <!-- selenium.AutoCompleteDropDown -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
